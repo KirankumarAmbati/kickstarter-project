@@ -1,0 +1,101 @@
+Kickstarter
+[Problem Statement]
+
+Develop a pseudo front end application which would let the users help list and browse top Kickstarter projects conveniently.
+
+ 
+
+[Minimum Requirement]
+
+- Use of Web API to fetch project details.
+
+ 
+
+Utilise Response Parameters:
+
+                [s.no, amt.pledged, blurb, by, country, currency, end.time, location, percentage.funded, num.backers, state, title, type, url].
+
+Implement functionality to list project details in a web page.
+
+- Visually interactive responsive design listing all the projects.
+
+- Zip all your Source code, Screenshot, & Deployment Instructions and upload.
+
+ 
+
+[Plus Point]
+
+- A feature to Search (via name).
+
+- Implement Sort feature (to filter result through -percenatge funded- in ascending and descending order).
+
+- Use your imagination and add features which would make things easier for end users.
+
+- Zip all your Source code, Screenshot, & Deployment Instructions and upload.
+
+ 
+
+[Extra Work]
+
+- Implement feature to sort projects based on end time.(Sort based on old-to-new and new-to-old).
+
+- Add autocomplete feature to Search projects conveniently.
+
+- Your frontend should load in less than few seconds. Implement lazy loading for slower frontends. (Look resources in this document to implement fast frontend.)
+
+- Custom elegant design, fonts and icons to make web app more user-friendly.
+
+- You may add portfolio activity comprising awesome work you have done on web application(s).
+
+
+ 
+
+[Guide]
+
+- Kickstarter API: http://starlord.hackerearth.com/kickstarter
+
+ 
+
+- Frontend Stack: ReactJS, HTML, CSS.
+
+- Prepend https://www.kickstarter.com/ before every Url param from API Response.
+
+- PS: Application can be built with use of client-side scripting and need not require any backend.
+
+ 
+
+[API Params]
+
+amt.pledged: amount pledged
+
+blurb: project blurb
+
+by: project creator
+
+country: abbreviated country code
+
+currency: currency type of amt.pledged
+
+end.time: campaign end time (string "YYYY-MM-DDThh:mm:ss-TZD")
+
+location: mostly city
+
+pecentage.funded: unit %
+
+num.backers: total number of backers
+
+state: mostly US states (string of length 2) and others
+
+title: project title
+
+type: type of location (string: County/Island/LocalAdmin/Suburb/Town/Zip)
+
+url: project url after domain (string)
+
+ 
+
+[Resources]
+
+https://medium.com/front-end-hacking/how-to-optimize-image-loading-on-your-website-855020fb41ae
+
+https://www.keycdn.com/blog/front-end-optimization
